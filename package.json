@@ -5,6 +5,9 @@
   "name": "techtalk-revision",
   "private": true,
   "scripts": {
-    "test": "node check-content.cjs && node check.cjs && node check-answers.cjs"
+    "test": "node check-content.cjs && node check.cjs && node check-answers.cjs && node check-sync.cjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.119.0"
   }
 }

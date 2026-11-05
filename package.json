@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  },
+  "name": "techtalk-revision",
+  "private": true,
+  "scripts": {
+    "test": "node check-content.cjs && node check.cjs && node check-answers.cjs"
+  }
+}

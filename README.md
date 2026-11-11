@@ -12,7 +12,6 @@ Développement : npm ci puis npm test. Aucun outil de développement n’est né
 
 ## Site et synchronisation
 
-Site : https://gustor1.github.io/techtalk-revision/
 
 Le bouton Synchroniser permet de créer un compte, de confirmer son adresse, puis de se connecter sur chaque appareil. La base Supabase dédiée TechTalk Revision utilise les règles RLS pour limiter chaque utilisateur à ses événements. Seule la clé publiable est incluse dans le client.
 
